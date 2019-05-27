@@ -16,7 +16,7 @@
          
 	 //print time
 	 std::chrono::duration<double> diff = end - start;
-	 std::cout << "Elapsed time" << diff.count() << "ms\n" << std::endl; 
+	 std::cout << "Elapsed time " << diff.count() << " s\n" << std::endl; 
  }
  
  int main() {
